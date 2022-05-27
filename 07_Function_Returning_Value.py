@@ -23,5 +23,4 @@ def getNameAndConvertToLowerCase():
 def getNameAndConvertToUpperCase():
     return input("Input your name to be converted into uppercase: ").upper()
 
-returnedNameup = getNameAndConvertToUpperCase()
-print(returnedNameup)
+print(getNameAndConvertToUpperCase())
