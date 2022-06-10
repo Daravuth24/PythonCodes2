@@ -3,9 +3,9 @@ def b_search(nums_list, sno):
         end = len(nums_list)-1
         for i in range(0, len(nums_list)):
             mid = (beg+end)//2
-            if nums_list[mid]==sno:
+            if nums_list[mid] == sno:
                 return mid
-            elif nums_list[mid]>sno:
+            elif nums_list[mid] > sno:
                 end = mid-1
             else:
                 beg = mid+1
